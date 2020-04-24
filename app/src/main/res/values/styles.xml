@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--
+    If you declare android:theme="PlayerTheme" in the Manifest,
+    the whole activity background will become black.
+    <style name="PlayerTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@color/colorBlack</item>
+    </style>
+    -->
+
+    <!-- The top bar color will become black to follow the player background black color -->
+    <style name="PlayerActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+    </style>
+
+    <style name="mySpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+</resources>
